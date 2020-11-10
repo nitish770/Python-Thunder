@@ -105,6 +105,7 @@ def solve(board : list):
 
 
 if __name__ == '__main__':
+	# board = convertToBoard(string)
 	ans = solve(board)
 	if ans is None:
 		print("The board is not valid")
